@@ -1,1 +1,35 @@
-<iframe src="https://tuffness.pages.dev" width="100%" height="500px" style="border:none;" title="Embedded Website"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullscreen Embed</title>
+  <style>
+    /* Remove all default margins and scrollbars from the main page */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #000000; /* Smooth backdrop while loading */
+    }
+
+    /* Force the iframe to fill 100% of the viewport */
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <iframe 
+    src="https://tuffness.pages.dev" 
+    allow="fullscreen">
+  </iframe>
+
+</body>
+</html>
